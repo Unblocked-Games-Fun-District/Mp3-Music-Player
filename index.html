@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MP3 Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="player">
+  <input type="file" id="fileInput" accept=".mp3">
+  <div id="cover"></div>
+  <div id="info">
+    <p id="title"></p>
+    <p id="artist"></p>
+  </div>
+  <audio controls id="audio"></audio>
+  <div id="lyrics"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
