@@ -1,0 +1,26 @@
+/* Add your CSS styling here */
+#player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#cover {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+#info {
+  text-align: center;
+}
+#lyrics {
+  margin-top: 20px;
+  text-align: top;
+}
+.line {
+  display: none;
+}
+.active {
+  display: block;
+  color: #ffffff;
+}
